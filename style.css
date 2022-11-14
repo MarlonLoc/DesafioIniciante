@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.conteiner{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+header{
+    max-height: 300px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.vector{
+
+width: 15px;
+height: 15px;
+background: #161616;
+display: inline-block;
+
+}
+
+.menu,.vector{
+    display: inline-block;
+     
+ }
+ .topoimagemenu{
+    float:right;  
+    margin-right: 40px;  
+}
+.imagemenu{
+    width: 25px;
+}
+.conteinerbanner{
+    width: 100%;   
+    margin: auto;
+}
+.banner{
+    width: 100%;
+}
+
+.conteiner2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+@keyframes fadeIn{
+    0%{
+        transform: scale(.7) translatey(-10px);
+    opacity: 0;
+    }
+}
+a{
+    text-decoration: none;
+    color: #000;
+ }
+.conteiner2 .imageprdutos{
+    
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    cursor:pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 15px;
+    animation: fadeIn .2s linear;
+    text-align: center;
+}
+.conteiner2 .imageprdutos img{
+   
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+
+footer{
+    margin: auto;
+    max-height: 500px;
+    padding:50px;
+    position: relative;
+    margin-left: 50px;
+}
+.fomulario{
+    margin: auto;
+    position: absolute;
+    right: 20%;
+    top:20%;
+    bottom: 50%;
+    
+}
+
+input {
+    padding: 5px;  
+    margin-right: 10px;
+    border: none;
+   
+}
+input[type="submit"]{
+    position: absolute;
+    background-color: rgb(122, 189, 22);
+    width: 50%;
+    color: white;   
+
+}
+footer p {
+    font-weight: bold;
+}
+
+.nada{
+    margin: auto;
+    height: 30px;
+    background-color: rgb(122, 189, 22);
+}
+
+ 
+ 
